@@ -1,0 +1,8 @@
+.meal {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-column-gap: 5rem;
+    grid-row-gap: 3rem;
+  }
+}

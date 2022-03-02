@@ -1,0 +1,23 @@
+.navigation {
+  margin: 4rem;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__list-item {
+    font-size: 1.7rem;
+
+    &:not(:last-child) {
+      margin-right: 3.5rem;
+    }
+  }
+
+  & a {
+    color: var(--color-gold);
+    text-decoration: none;
+  }
+}
